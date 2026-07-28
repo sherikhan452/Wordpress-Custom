@@ -1,17 +1,19 @@
 
 
-<?php 
+<?php
 
-function Myfunction($name){
 
-    echo "My name is: $name</br>";
+$name = array("SK Digital", "Frictional University", "WordPress Theme");
+
+for($i=0;$i<count($name);$i++){
+
+echo "The Value is: ".$i. " - " . $name[$i]."<br/>";
+
 
 }
 
-myfunction("SK Digital");
-myfunction("Sheri");
+
+
 
 
 ?>
-<h1> <?php echo bloginfo('name'); ?></h1>
-<h1> <?php echo bloginfo('description'); ?></h1>
