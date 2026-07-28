@@ -4,13 +4,12 @@
 
 
 $name = array("SK Digital", "Frictional University", "WordPress Theme");
-
-for($i=0;$i<count($name);$i++){
-
-echo "The Value is: ".$i. " - " . $name[$i]."<br/>";
-
-
+$abc=0;
+while($abc<count($name)){
+    echo "<li>$name[$abc]</li>";
+    $abc++;
 }
+
 
 
 
