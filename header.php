@@ -1,7 +1,10 @@
+<!Doctype html>
+<html>
+<head> 
 
-<?php
+    <?php wp_head(); ?>
+    
+</head>
 
-echo "<h1>This is Header</h1>";
 
 
-?>
