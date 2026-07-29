@@ -2,17 +2,11 @@
 
 <?php
 
-
-$name = array("SK Digital", "Frictional University", "WordPress Theme");
-$abc=0;
-while($abc<count($name)){
-    echo "<li>$name[$abc]</li>";
-    $abc++;
-}
-
+while(have_posts()){
+    the_post();
+    ?>
+    <h1><?php the_title(); ?> </h1>
+    <?php the_content(); ?>
+<?php }?>
 
 
-
-
-
-?>
