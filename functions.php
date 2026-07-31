@@ -19,3 +19,5 @@ function university_feature(){
 
 }
 add_action('after_setup_theme', 'university_feature');
+
+
